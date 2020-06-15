@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.flip.min.js"></script>
+    <script src="js/ouicards.js"></script>
+    <link rel="stylesheet" href="css/example.css">
+    <link rel="stylesheet" href="css/fonts.css"> 
+  </head>
+
+  <body>
+    <div class="flashcard">
+      <div id="card">
+      <div class="front">
+        <div class="question">
+          <p>Click here to show instructions</p>
+        </div>
+      </div>
+
+      <div class="back">
+        <div class="answer">
+          <p>Upload your comma-separated questions above. Each question goes on a separate line.</p>
+          <p>To reveal an answer click on the dark-blue question area (like you just did) or click this answer section.</p>
+          <p>Fun fact: This application uses the <a href="http://en.wikipedia.org/wiki/Leitner_system" target="_blank">Leitner System</a>. Enjoy!</p>
+        </div>
+        <div class="controls">
+          <div class="correct">
+            <label class="icon-checkmark"></label>
+          </div>
+          <div class="wrong">
+            <label class="icon-close"></label>
+          </div>
+        </div>
+
+      </div>
+     
+    </div>
+     
+
+      <div class="footer">
+        <div class="stats">
+          <div class="questions-count">0 questions - time to load some!</div>
+          <div class="current-stats">
+            <label class="icon-stats"></label>
+            <label id="stat-details">0 - 0 - 0</label>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script src="js/example.js"></script>
+  </body>
+</html>
