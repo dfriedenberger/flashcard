@@ -1,2 +1,2 @@
 # flashcard
-Flashcard-Page for using external Flaschcards
+Flashcard-Page for using external Flashcards
