@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   var url = $(location).attr('hash').substr(1);
   if(url == "") 
-    url = "../datasets/basic1.json";
+    url = location+"datasets/basic1.json";
 
   console.log(url);
 

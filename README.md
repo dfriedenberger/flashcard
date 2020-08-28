@@ -7,7 +7,7 @@ Only have to add URL to data set.
 https://dfriedenberger.github.io/flashcard/#<url-to-json-data-set>
 ```
 
-Test it with https://dfriedenberger.github.io/flashcard/#https://dfriedenberger.github.io/flashcard/datasets/test.json
+Test it with https://dfriedenberger.github.io/flashcard/#https://dfriedenberger.github.io/flashcard/datasets/basic1.json
 
 ## Use your own data set
 Data set is simple JSON array with question and answer field. (example https://dfriedenberger.github.io/flashcard/datasets/test.json)
