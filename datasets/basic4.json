@@ -1,0 +1,64 @@
+{
+  "title" : "Wegbeschreibungen",
+  "cards" : [ {
+    "question" : "izquierda",
+    "answer" : "links"
+  }, {
+    "question" : "derecha",
+    "answer" : "rechts"
+  }, {
+    "question" : "aquí",
+    "answer" : "hier"
+  }, {
+    "question" : "allí",
+    "answer" : "dort"
+  }, {
+    "question" : "atrás",
+    "answer" : "zurück"
+  }, {
+    "question" : "arriba",
+    "answer" : "hoch"
+  }, {
+    "question" : "abajo",
+    "answer" : "runter"
+  }, {
+    "question" : "derecho",
+    "answer" : "geradeaus"
+  }, {
+    "question" : "el lugar",
+    "answer" : "Ort"
+  }, {
+    "question" : "¿Dónde está…?",
+    "answer" : "Wo ist…?"
+  }, {
+    "question" : "¿Cómo llego a…?",
+    "answer" : "Wie komme ich nach…?"
+  }, {
+    "question" : "Estoy buscando la calle…",
+    "answer" : "Ich suche … Straße."
+  }, {
+    "question" : "A la vuelta de la esquina",
+    "answer" : "um die Ecke"
+  }, {
+    "question" : "lejos",
+    "answer" : "weit"
+  }, {
+    "question" : "cerca",
+    "answer" : "in der Nähe von"
+  }, {
+    "question" : "enfrente de",
+    "answer" : "gegenüber von"
+  }, {
+    "question" : "sígame",
+    "answer" : "Folgen Sie mir"
+  }, {
+    "question" : "al lado de X",
+    "answer" : "neben X"
+  }, {
+    "question" : "pasar",
+    "answer" : "vorbeigehen"
+  }, {
+    "question" : "entre",
+    "answer" : "zwischen"
+  } ]
+}

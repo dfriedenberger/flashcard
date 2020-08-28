@@ -1,0 +1,58 @@
+{
+  "title" : "Im Restaurant",
+  "cards" : [ {
+    "question" : "Una mesa para X, por favor.",
+    "answer" : "Einen Tisch für X Personen, bitte."
+  }, {
+    "question" : "Me gustaría pedir.",
+    "answer" : "Ich würde gerne bestellen."
+  }, {
+    "question" : "¿Puedo ver el menú, por favor?",
+    "answer" : "Kann ich bitte die Karte haben?"
+  }, {
+    "question" : "La cuenta, por favor.",
+    "answer" : "Die Rechnung bitte."
+  }, {
+    "question" : "el desayuno",
+    "answer" : "Frühstück"
+  }, {
+    "question" : "el almuerzo",
+    "answer" : "Mittagsessen"
+  }, {
+    "question" : "la cena",
+    "answer" : "Abendessen"
+  }, {
+    "question" : "la cubertería",
+    "answer" : "Besteck"
+  }, {
+    "question" : "la servilleta",
+    "answer" : "Serviette"
+  }, {
+    "question" : "el brunch",
+    "answer" : "Brunch"
+  }, {
+    "question" : "el plato principal",
+    "answer" : "Hauptgang"
+  }, {
+    "question" : "el postre",
+    "answer" : "Dessert"
+  }, {
+    "question" : "la propina",
+    "answer" : "Trinkgeld"
+  }, {
+    "question" : "la guarnición",
+    "answer" : "Beilage"
+  }, {
+    "question" : "las bebidas",
+    "answer" : "Getränke"
+  }, {
+    "question" : "el tenedor libre",
+    "answer" : "all you can eat"
+  }, {
+    "question" : "la hora feliz / Happy Hour",
+    "answer" : "Happy Hour"
+  }, {
+    "question" : "el aperitivo",
+    "answer" : "Appetizer"
+  } ]
+}

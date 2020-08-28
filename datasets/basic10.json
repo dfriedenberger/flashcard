@@ -1,0 +1,124 @@
+{
+  "title" : "Zahlen",
+  "cards" : [ {
+    "question" : "Uno",
+    "answer" : "Eins"
+  }, {
+    "question" : "Dos",
+    "answer" : "Zwei"
+  }, {
+    "question" : "Tres",
+    "answer" : "Drei"
+  }, {
+    "question" : "Cuatro",
+    "answer" : "Vier"
+  }, {
+    "question" : "Cinco",
+    "answer" : "Fünf"
+  }, {
+    "question" : "Seis",
+    "answer" : "Sechs"
+  }, {
+    "question" : "Siete",
+    "answer" : "Sieben"
+  }, {
+    "question" : "Ocho",
+    "answer" : "Acht"
+  }, {
+    "question" : "Nueve",
+    "answer" : "Neun"
+  }, {
+    "question" : "Diez",
+    "answer" : "Zehn"
+  }, {
+    "question" : "Once",
+    "answer" : "Elf"
+  }, {
+    "question" : "Doce",
+    "answer" : "Zwölf"
+  }, {
+    "question" : "Trece",
+    "answer" : "Dreizehn"
+  }, {
+    "question" : "Catorce",
+    "answer" : "Vierzehn"
+  }, {
+    "question" : "Quince",
+    "answer" : "Fünfzehn"
+  }, {
+    "question" : "Dieciséis",
+    "answer" : "Sechszehn"
+  }, {
+    "question" : "Diecisiete",
+    "answer" : "Siebzehn"
+  }, {
+    "question" : "Dieciocho",
+    "answer" : "Achtzehn"
+  }, {
+    "question" : "Diecinueve",
+    "answer" : "Neunzehn"
+  }, {
+    "question" : "Veinte",
+    "answer" : "Zwanzig"
+  }, {
+    "question" : "Treinta",
+    "answer" : "Dreißig"
+  }, {
+    "question" : "Cuarenta",
+    "answer" : "Vierzig"
+  }, {
+    "question" : "Cincuenta",
+    "answer" : "Fünfzig"
+  }, {
+    "question" : "Sesenta",
+    "answer" : "Sechszig"
+  }, {
+    "question" : "Setenta",
+    "answer" : "Siebzieg"
+  }, {
+    "question" : "Ochenta",
+    "answer" : "Achzig"
+  }, {
+    "question" : "Noventa",
+    "answer" : "Neunzig"
+  }, {
+    "question" : "Cien",
+    "answer" : "Hundert"
+  }, {
+    "question" : "Doscientos",
+    "answer" : "Zweihundert"
+  }, {
+    "question" : "Mil",
+    "answer" : "Tausend"
+  }, {
+    "question" : "Dos mil",
+    "answer" : "Zweitausend"
+  }, {
+    "question" : "Millón",
+    "answer" : "Million"
+  }, {
+    "question" : "Mil millones",
+    "answer" : "Milliarde"
+  }, {
+    "question" : "primero/primera",
+    "answer" : "erste(r)"
+  }, {
+    "question" : "segundo/segunda",
+    "answer" : "zweite(r)"
+  }, {
+    "question" : "tercero/tercera",
+    "answer" : "dritte(r)"
+  }, {
+    "question" : "cuarto/cuarta",
+    "answer" : "vierte(r)"
+  }, {
+    "question" : "quinto/quinta",
+    "answer" : "fünfte(r)"
+  }, {
+    "question" : "sexto/sexta",
+    "answer" : "sechste(r)"
+  }, {
+    "question" : "séptimo/séptima",
+    "answer" : "siebte(r)"
+  } ]
+}

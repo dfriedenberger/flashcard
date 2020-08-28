@@ -1,0 +1,55 @@
+{
+  "title" : "Allgemein\tGeneralJa",
+  "cards" : [ {
+    "question" : "no",
+    "answer" : "Nein"
+  }, {
+    "question" : "tal vez",
+    "answer" : "Vielleicht"
+  }, {
+    "question" : "por favor",
+    "answer" : "Bitte"
+  }, {
+    "question" : "gracias",
+    "answer" : "Danke"
+  }, {
+    "question" : "lo siento",
+    "answer" : "Entschuldigung"
+  }, {
+    "question" : "vale",
+    "answer" : "Alles klar"
+  }, {
+    "question" : "(No) entiendo",
+    "answer" : "Ich verstehe (nicht)"
+  }, {
+    "question" : "¿Sabe / Sabes hablar alemán?",
+    "answer" : "Sprechen Sie / Sprichst Du Deutsch?"
+  }, {
+    "question" : "No hablo español.",
+    "answer" : "Ich spreche kein Spanisch."
+  }, {
+    "question" : "¡Socorro! / ¡Ayuda!",
+    "answer" : "Hilfe!"
+  }, {
+    "question" : "Un poco más despacio por favor.",
+    "answer" : "Ein bisschen langsamer bitte."
+  }, {
+    "question" : "¡Salud!",
+    "answer" : "Gesundheit!"
+  }, {
+    "question" : "¡Salud!",
+    "answer" : "Prost!"
+  }, {
+    "question" : "dónde",
+    "answer" : "Wo"
+  }, {
+    "question" : "cuándo",
+    "answer" : "Wann"
+  }, {
+    "question" : "quién",
+    "answer" : "Wer"
+  }, {
+    "question" : "por qué",
+    "answer" : "Warum"
+  } ]
+}

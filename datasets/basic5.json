@@ -1,0 +1,124 @@
+{
+  "title" : "Zeiten / Daten",
+  "cards" : [ {
+    "question" : "ahora",
+    "answer" : "jetzt"
+  }, {
+    "question" : "hoy",
+    "answer" : "heute"
+  }, {
+    "question" : "mañana",
+    "answer" : "morgen"
+  }, {
+    "question" : "ayer",
+    "answer" : "gestern"
+  }, {
+    "question" : "el segundo",
+    "answer" : "Sekunde"
+  }, {
+    "question" : "el minuto",
+    "answer" : "Minute"
+  }, {
+    "question" : "la hora",
+    "answer" : "Stunde"
+  }, {
+    "question" : "el día",
+    "answer" : "Tag"
+  }, {
+    "question" : "la semana",
+    "answer" : "Woche"
+  }, {
+    "question" : "el mes",
+    "answer" : "Monat"
+  }, {
+    "question" : "el año",
+    "answer" : "Jahr"
+  }, {
+    "question" : "temprano",
+    "answer" : "früh"
+  }, {
+    "question" : "tarde",
+    "answer" : "spät"
+  }, {
+    "question" : "el lunes",
+    "answer" : "Montag"
+  }, {
+    "question" : "el martes",
+    "answer" : "Dienstag"
+  }, {
+    "question" : "el miércoles",
+    "answer" : "Mittwoch"
+  }, {
+    "question" : "el jueves",
+    "answer" : "Donnerstag"
+  }, {
+    "question" : "el viernes",
+    "answer" : "Freitag"
+  }, {
+    "question" : "el sábado",
+    "answer" : "Samstag"
+  }, {
+    "question" : "el domingo",
+    "answer" : "Sonntag"
+  }, {
+    "question" : "la primavera",
+    "answer" : "Frühling"
+  }, {
+    "question" : "el verano",
+    "answer" : "Sommer"
+  }, {
+    "question" : "el otoño",
+    "answer" : "Herbst"
+  }, {
+    "question" : "el invierno",
+    "answer" : "Winter"
+  }, {
+    "question" : "el enero",
+    "answer" : "Januar"
+  }, {
+    "question" : "el febrero",
+    "answer" : "Februar"
+  }, {
+    "question" : "el marzo",
+    "answer" : "März"
+  }, {
+    "question" : "el abril",
+    "answer" : "April"
+  }, {
+    "question" : "el mayo",
+    "answer" : "Mai"
+  }, {
+    "question" : "el junio",
+    "answer" : "Juni"
+  }, {
+    "question" : "el julio",
+    "answer" : "Juli"
+  }, {
+    "question" : "el agosto",
+    "answer" : "August"
+  }, {
+    "question" : "el septiembre",
+    "answer" : "September"
+  }, {
+    "question" : "el octubre",
+    "answer" : "Oktober"
+  }, {
+    "question" : "el noviembre",
+    "answer" : "November"
+  }, {
+    "question" : "el diciembre",
+    "answer" : "Dezember"
+  }, {
+    "question" : "la hora",
+    "answer" : "Uhrzeit"
+  }, {
+    "question" : "¿Qué hora es?",
+    "answer" : "Wie spät ist es?"
+  }, {
+    "question" : "la década",
+    "answer" : "Jahrzehnt"
+  }, {
+    "question" : "el siglo",
+    "answer" : "Jahrhundert"
+  } ]
+}

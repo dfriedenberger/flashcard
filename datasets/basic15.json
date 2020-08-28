@@ -1,0 +1,64 @@
+{
+  "title" : "Wichtige Adjektive",
+  "cards" : [ {
+    "question" : "hermoso/hermosa",
+    "answer" : "schön"
+  }, {
+    "question" : "feo/fea",
+    "answer" : "hässlich"
+  }, {
+    "question" : "alto/alta",
+    "answer" : "hoch"
+  }, {
+    "question" : "pequeño/pequeña",
+    "answer" : "klein"
+  }, {
+    "question" : "grande",
+    "answer" : "groß"
+  }, {
+    "question" : "nuevo/nueva",
+    "answer" : "neu"
+  }, {
+    "question" : "largo/larga",
+    "answer" : "lang"
+  }, {
+    "question" : "estupendo/estupenda",
+    "answer" : "großartig"
+  }, {
+    "question" : "viejo/vieja",
+    "answer" : "alt"
+  }, {
+    "question" : "joven",
+    "answer" : "jung"
+  }, {
+    "question" : "diferente",
+    "answer" : "anders"
+  }, {
+    "question" : "importante",
+    "answer" : "wichtig"
+  }, {
+    "question" : "malo/mala",
+    "answer" : "schlecht"
+  }, {
+    "question" : "divertido/divertida",
+    "answer" : "lustig"
+  }, {
+    "question" : "serio/seria",
+    "answer" : "ernst"
+  }, {
+    "question" : "fuerte",
+    "answer" : "stark"
+  }, {
+    "question" : "fácil",
+    "answer" : "einfach"
+  }, {
+    "question" : "difícil",
+    "answer" : "schwer"
+  }, {
+    "question" : "pobre",
+    "answer" : "arm"
+  }, {
+    "question" : "rico/rica",
+    "answer" : "reich"
+  } ]
+}

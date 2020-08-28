@@ -1,0 +1,64 @@
+{
+  "title" : "Mensch / Körper",
+  "cards" : [ {
+    "question" : "el hombre",
+    "answer" : "Mann"
+  }, {
+    "question" : "la mujer",
+    "answer" : "Frau"
+  }, {
+    "question" : "el niño",
+    "answer" : "Junge"
+  }, {
+    "question" : "la niña",
+    "answer" : "Mädchen"
+  }, {
+    "question" : "el brazo",
+    "answer" : "Arm"
+  }, {
+    "question" : "la mano",
+    "answer" : "Hand"
+  }, {
+    "question" : "la pierna",
+    "answer" : "Bein"
+  }, {
+    "question" : "el pie",
+    "answer" : "Fuß"
+  }, {
+    "question" : "el ojo",
+    "answer" : "Auge"
+  }, {
+    "question" : "la cabeza",
+    "answer" : "Kopf"
+  }, {
+    "question" : "el cerebro",
+    "answer" : "Gehirn"
+  }, {
+    "question" : "la nariz",
+    "answer" : "Nase"
+  }, {
+    "question" : "la oreja",
+    "answer" : "Ohr"
+  }, {
+    "question" : "el pelo",
+    "answer" : "Haar"
+  }, {
+    "question" : "la ceja",
+    "answer" : "Augenbraue"
+  }, {
+    "question" : "los labios",
+    "answer" : "Lippen"
+  }, {
+    "question" : "el dedo",
+    "answer" : "Finger"
+  }, {
+    "question" : "el esqueleto",
+    "answer" : "Skelett"
+  }, {
+    "question" : "los huesos",
+    "answer" : "Knochen"
+  }, {
+    "question" : "la piel",
+    "answer" : "Haut"
+  } ]
+}

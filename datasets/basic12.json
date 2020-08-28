@@ -1,0 +1,64 @@
+{
+  "title" : "Wichtige Wörter",
+  "cards" : [ {
+    "question" : "la cosa",
+    "answer" : "Ding"
+  }, {
+    "question" : "por supuesto",
+    "answer" : "sicher"
+  }, {
+    "question" : "el/la/lo",
+    "answer" : "der/die/das"
+  }, {
+    "question" : "y",
+    "answer" : "und"
+  }, {
+    "question" : "o",
+    "answer" : "oder"
+  }, {
+    "question" : "porque",
+    "answer" : "weil"
+  }, {
+    "question" : "la vida",
+    "answer" : "Leben"
+  }, {
+    "question" : "el gobierno",
+    "answer" : "Regierung"
+  }, {
+    "question" : "el niño/la niña",
+    "answer" : "Kind"
+  }, {
+    "question" : "la empresa",
+    "answer" : "Firma"
+  }, {
+    "question" : "el grupo",
+    "answer" : "Gruppe"
+  }, {
+    "question" : "la edad",
+    "answer" : "Alter"
+  }, {
+    "question" : "la luna",
+    "answer" : "Mond"
+  }, {
+    "question" : "el sol",
+    "answer" : "Sonne"
+  }, {
+    "question" : "el coche",
+    "answer" : "Auto"
+  }, {
+    "question" : "el libro",
+    "answer" : "Buch"
+  }, {
+    "question" : "el mundo",
+    "answer" : "Welt"
+  }, {
+    "question" : "la familia",
+    "answer" : "Familie"
+  }, {
+    "question" : "el amigo",
+    "answer" : "Freund"
+  }, {
+    "question" : "la ley",
+    "answer" : "Gesetz"
+  } ]
+}

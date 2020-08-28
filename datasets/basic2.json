@@ -1,0 +1,58 @@
+{
+  "title" : "Begrüssung / Verabschiedung",
+  "cards" : [ {
+    "question" : "Hola",
+    "answer" : "Hallo"
+  }, {
+    "question" : "Buenos días",
+    "answer" : "Guten Morgen"
+  }, {
+    "question" : "Buenas tardes",
+    "answer" : "Guten Tag"
+  }, {
+    "question" : "Buenas tardes",
+    "answer" : "Guten Abend"
+  }, {
+    "question" : "Buenas noches",
+    "answer" : "Gute Nacht"
+  }, {
+    "question" : "Adiós",
+    "answer" : "Tschüss"
+  }, {
+    "question" : "Hasta la vista / Hasta la proxima",
+    "answer" : "Auf Wiedersehen"
+  }, {
+    "question" : "¿Cómo está (usted) / estás?",
+    "answer" : "Wie geht es Ihnen / Dir?"
+  }, {
+    "question" : "bien",
+    "answer" : "gut"
+  }, {
+    "question" : "mal",
+    "answer" : "schlecht"
+  }, {
+    "question" : "Hola",
+    "answer" : "Hey / Hallo"
+  }, {
+    "question" : "¿Qué tal?",
+    "answer" : "Wie geht’s?"
+  }, {
+    "question" : "¿Qué hay?",
+    "answer" : "Was geht?"
+  }, {
+    "question" : "Qué bueno verle / verte.",
+    "answer" : "Schön Sie / Dich zu sehen."
+  }, {
+    "question" : "Encantado de conocerle / conocerte.",
+    "answer" : "Nett Sie kennenzulernen"
+  }, {
+    "question" : "Cuídate.",
+    "answer" : "Mach’s gut"
+  }, {
+    "question" : "Mucho tiempo sin haberte visto.",
+    "answer" : "Lange nicht gesehen."
+  }, {
+    "question" : "¿Cómo van las cosas?",
+    "answer" : "Wie steht’s?"
+  } ]
+}

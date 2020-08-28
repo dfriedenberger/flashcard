@@ -1,0 +1,58 @@
+{
+  "title" : "Einkaufen",
+  "cards" : [ {
+    "question" : "caro",
+    "answer" : "teuer"
+  }, {
+    "question" : "economico, barato",
+    "answer" : "billig"
+  }, {
+    "question" : "gratis",
+    "answer" : "kostenlos"
+  }, {
+    "question" : "¿Cuánto cuesta eso?",
+    "answer" : "Wie viel kostet das?"
+  }, {
+    "question" : "el cajero",
+    "answer" : "Kassierer"
+  }, {
+    "question" : "el carrito de la compra",
+    "answer" : "Trolley / Warenkorb"
+  }, {
+    "question" : "la bolsa",
+    "answer" : "Tasche"
+  }, {
+    "question" : "la garantía",
+    "answer" : "Garantie"
+  }, {
+    "question" : "la política de reembolso",
+    "answer" : "Rückgaberecht"
+  }, {
+    "question" : "la tarjeta de fidelidad",
+    "answer" : "Kundenkarte"
+  }, {
+    "question" : "el recibo IVA",
+    "answer" : "Mehrwertsteuer-Quittung"
+  }, {
+    "question" : "el descuento en efectivo",
+    "answer" : "Rabatt"
+  }, {
+    "question" : "el pasillo",
+    "answer" : "Gang"
+  }, {
+    "question" : "la estantería",
+    "answer" : "Regal"
+  }, {
+    "question" : "el vestuario",
+    "answer" : "Umkleidekabine"
+  }, {
+    "question" : "la entrega",
+    "answer" : "Lieferung"
+  }, {
+    "question" : "las rebajas / la liquidación",
+    "answer" : "Schlussverkauf"
+  }, {
+    "question" : "Perdone, ¿trabaja aquí?",
+    "answer" : "Entschuldigen Sie, arbeiten Sie hier?"
+  } ]
+}

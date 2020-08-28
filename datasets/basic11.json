@@ -1,0 +1,28 @@
+{
+  "title" : "Personalpronomen",
+  "cards" : [ {
+    "question" : "yo",
+    "answer" : "ich"
+  }, {
+    "question" : "tú",
+    "answer" : "du"
+  }, {
+    "question" : "él",
+    "answer" : "er"
+  }, {
+    "question" : "ella / usted",
+    "answer" : "sie / Sie"
+  }, {
+    "question" : "eso",
+    "answer" : "es"
+  }, {
+    "question" : "nosotros/nosotras",
+    "answer" : "wir"
+  }, {
+    "question" : "vosotros / vosotras",
+    "answer" : "ihr"
+  }, {
+    "question" : "ellos/ellas / ustedes",
+    "answer" : "sie / Sie"
+  } ]
+}

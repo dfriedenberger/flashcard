@@ -1,0 +1,64 @@
+{
+  "title" : "Orte",
+  "cards" : [ {
+    "question" : "la tienda de comestibles / el supermercado",
+    "answer" : "Supermarkt"
+  }, {
+    "question" : "el hospital",
+    "answer" : "Krankenhaus"
+  }, {
+    "question" : "el banco",
+    "answer" : "Bank"
+  }, {
+    "question" : "el hotel",
+    "answer" : "Hotel"
+  }, {
+    "question" : "el bar",
+    "answer" : "Bar"
+  }, {
+    "question" : "la farmacia",
+    "answer" : "Apotheke"
+  }, {
+    "question" : "la playa",
+    "answer" : "Strand"
+  }, {
+    "question" : "el restaurante",
+    "answer" : "Restaurant"
+  }, {
+    "question" : "el aeropuerto",
+    "answer" : "Flughafen"
+  }, {
+    "question" : "la panadería",
+    "answer" : "Bäckerei"
+  }, {
+    "question" : "la estación de autobús",
+    "answer" : "Bushaltestelle"
+  }, {
+    "question" : "la iglesia",
+    "answer" : "Kirche"
+  }, {
+    "question" : "el cine",
+    "answer" : "Kino"
+  }, {
+    "question" : "la gasolinera",
+    "answer" : "Tankstelle"
+  }, {
+    "question" : "el museo",
+    "answer" : "Museum"
+  }, {
+    "question" : "la comisaría de policía",
+    "answer" : "Polizeistation"
+  }, {
+    "question" : "la escuela",
+    "answer" : "Schule"
+  }, {
+    "question" : "la plaza",
+    "answer" : "Platz"
+  }, {
+    "question" : "el supermercado",
+    "answer" : "Supermarkt"
+  }, {
+    "question" : "el zoo",
+    "answer" : "Zoo"
+  } ]
+}

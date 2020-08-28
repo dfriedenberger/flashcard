@@ -1,0 +1,67 @@
+{
+  "title" : "Reise",
+  "cards" : [ {
+    "question" : "Me gustaría…",
+    "answer" : "Ich möchte gerne…"
+  }, {
+    "question" : "¿Dónde está el baño?",
+    "answer" : "Wo sind die Toilleten?"
+  }, {
+    "question" : "¿Qué hora es?",
+    "answer" : "Wie spät ist es?"
+  }, {
+    "question" : "Me estoy hospedando en…",
+    "answer" : "Ich übernachte bei…"
+  }, {
+    "question" : "Estoy visitando a la familia",
+    "answer" : "Ich besuche Familie"
+  }, {
+    "question" : "Voy a estar aquí por X días",
+    "answer" : "Ich bin hier für X Tage"
+  }, {
+    "question" : "¿Tiene un mapa?",
+    "answer" : "Haben Sie eine Karte?"
+  }, {
+    "question" : "el pasaporte",
+    "answer" : "Reisepass"
+  }, {
+    "question" : "el aeropuerto",
+    "answer" : "Flughafen"
+  }, {
+    "question" : "el puerto",
+    "answer" : "Hafen"
+  }, {
+    "question" : "la seguridad",
+    "answer" : "Sicherheit"
+  }, {
+    "question" : "el avión",
+    "answer" : "Flugzeug"
+  }, {
+    "question" : "el tren",
+    "answer" : "Zug"
+  }, {
+    "question" : "el barco",
+    "answer" : "Schiff"
+  }, {
+    "question" : "la bicicleta",
+    "answer" : "Fahrrad"
+  }, {
+    "question" : "la motocicleta",
+    "answer" : "Motorrad"
+  }, {
+    "question" : "el autobús",
+    "answer" : "Bus"
+  }, {
+    "question" : "volar",
+    "answer" : "fliegen"
+  }, {
+    "question" : "conducir",
+    "answer" : "fahren (Fahrzeug)"
+  }, {
+    "question" : "navegar",
+    "answer" : "segeln"
+  }, {
+    "question" : "montar",
+    "answer" : "fahren (Fahrrad), reiten"
+  } ]
+}

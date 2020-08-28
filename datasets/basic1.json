@@ -1,0 +1,58 @@
+{
+  "title" : "Vorstellungen",
+  "cards" : [ {
+    "question" : "el nombre",
+    "answer" : "Name"
+  }, {
+    "question" : "¿Cómo se llama (usted) / Cómo te llamas?",
+    "answer" : "Wie heißen Sie / Wie heißt Du?"
+  }, {
+    "question" : "Me llamo…",
+    "answer" : "Ich heiße…"
+  }, {
+    "question" : "Yo soy",
+    "answer" : "Ich bin…"
+  }, {
+    "question" : "Es un placer conocerle / conocerte.",
+    "answer" : "Es ist nett Sie / Dich kennenzulernen."
+  }, {
+    "question" : "Tengo X años.",
+    "answer" : "Ich bin X Jahre alt."
+  }, {
+    "question" : "Soy de…",
+    "answer" : "Ich komme aus…"
+  }, {
+    "question" : "¿Cuántos años tiene (usted) / tienes ?",
+    "answer" : "Wie alt sind Sie / bist Du?"
+  }, {
+    "question" : "¿Dónde trabaja (usted) / trabajas?",
+    "answer" : "Wo arbeiten Sie / arbeitest Du?"
+  }, {
+    "question" : "¿De dónde es (usted) / eres?",
+    "answer" : "Wo kommen Sie / kommst Du her?"
+  }, {
+    "question" : "¿Qué le / te trae por aquí?",
+    "answer" : "Was bringt Sie / Dich hierher?"
+  }, {
+    "question" : "¿Cómo ha ido su / tu viaje?",
+    "answer" : "Wie war Ihre / Deine Reise?"
+  }, {
+    "question" : "¿Lo está / estás pasando bien?",
+    "answer" : "Haben Sie / Hast Du eine gute Zeit?"
+  }, {
+    "question" : "¿Qué piensa / piensas sobre…?",
+    "answer" : "Was halten Sie / hältst Du von …?"
+  }, {
+    "question" : "Mis amigos me llaman…",
+    "answer" : "Meine Freunde nennen mich …"
+  }, {
+    "question" : "¿Nos hemos visto antes?",
+    "answer" : "Kennen wir uns?"
+  }, {
+    "question" : "Este / Esta es (nombre)",
+    "answer" : "Dies ist (Name)"
+  }, {
+    "question" : "¿Cómo ha sido su / tu fin de semana?",
+    "answer" : "Wie war Ihr  / Dein Wochenende?"
+  } ]
+}

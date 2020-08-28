@@ -1,0 +1,70 @@
+{
+  "title" : "Wichtige Verben",
+  "cards" : [ {
+    "question" : "ser / estar",
+    "answer" : "sein"
+  }, {
+    "question" : "conseguir",
+    "answer" : "bekommen"
+  }, {
+    "question" : "dar",
+    "answer" : "geben"
+  }, {
+    "question" : "vivir",
+    "answer" : "leben"
+  }, {
+    "question" : "hacer",
+    "answer" : "machen"
+  }, {
+    "question" : "caminar",
+    "answer" : "gehen"
+  }, {
+    "question" : "usar",
+    "answer" : "benutzen"
+  }, {
+    "question" : "comer",
+    "answer" : "essen"
+  }, {
+    "question" : "pensar",
+    "answer" : "denken"
+  }, {
+    "question" : "venir",
+    "answer" : "kommen"
+  }, {
+    "question" : "tener",
+    "answer" : "haben"
+  }, {
+    "question" : "hacer",
+    "answer" : "tun"
+  }, {
+    "question" : "decir",
+    "answer" : "sagen"
+  }, {
+    "question" : "ir",
+    "answer" : "gehen"
+  }, {
+    "question" : "saber",
+    "answer" : "wissen"
+  }, {
+    "question" : "ver",
+    "answer" : "sehen"
+  }, {
+    "question" : "querer",
+    "answer" : "wollen"
+  }, {
+    "question" : "encontrar",
+    "answer" : "finden"
+  }, {
+    "question" : "decir",
+    "answer" : "erzählen"
+  }, {
+    "question" : "preguntar",
+    "answer" : "fragen"
+  }, {
+    "question" : "intentar",
+    "answer" : "versuchen"
+  }, {
+    "question" : "llamar",
+    "answer" : "anrufen"
+  } ]
+}

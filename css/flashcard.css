@@ -1,0 +1,54 @@
+
+
+.buttons {width: 100%; }
+.bw2 { width: 50%; }
+.bw1 { width: 100%; }
+
+.vocabulary {
+    width:100%;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+.box {
+    display: inline-block;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    min-width: 41px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.box-1 {
+    border-color: red;
+    color: red;
+}
+
+.box-2 {
+    border-color: yellow;
+    color: yellow;
+}
+
+.box-3 {
+    border-color: green;
+    color: green;
+}

@@ -1,0 +1,64 @@
+{
+  "title" : "Im Hotel",
+  "cards" : [ {
+    "question" : "la habitación",
+    "answer" : "Zimmer"
+  }, {
+    "question" : "el servicio a la habitación",
+    "answer" : "Zimmerservice"
+  }, {
+    "question" : "el baño",
+    "answer" : "Badezimmer"
+  }, {
+    "question" : "la cama",
+    "answer" : "Bett"
+  }, {
+    "question" : "el dormitorio",
+    "answer" : "Schlafzimmer"
+  }, {
+    "question" : "el piso",
+    "answer" : "Etage"
+  }, {
+    "question" : "el ascensor",
+    "answer" : "Aufzug"
+  }, {
+    "question" : "la recepción",
+    "answer" : "Rezeption"
+  }, {
+    "question" : "la toalla",
+    "answer" : "Handtuch"
+  }, {
+    "question" : "las habitaciones accesorias",
+    "answer" : "Nebenräume"
+  }, {
+    "question" : "el equipaje",
+    "answer" : "Gepäck"
+  }, {
+    "question" : "el botones",
+    "answer" : "Page"
+  }, {
+    "question" : "el rincón cocina / la cocinita",
+    "answer" : "Kochnische"
+  }, {
+    "question" : "la ropa de cama",
+    "answer" : "Bettwäsche"
+  }, {
+    "question" : "el ayudante de cámara",
+    "answer" : "Kammerdiener"
+  }, {
+    "question" : "el vestíbulo",
+    "answer" : "Lobby"
+  }, {
+    "question" : "el depósito, el primer plazo",
+    "answer" : "Anzahlung"
+  }, {
+    "question" : "registrarse",
+    "answer" : "Einchecken"
+  }, {
+    "question" : "registrar la salida",
+    "answer" : "Auschecken"
+  }, {
+    "question" : "el regalo",
+    "answer" : "Geschenk"
+  } ]
+}
