@@ -47,4 +47,7 @@ function FlipCard (id) {
     this.setBackVocabulary = function(word) {
         $(this.id).find('.back').find('.vocabulary').text(word);
     }
+    this.setBoxSize = function(boxIx,size) {
+        $("#box-"+boxIx).text(size);
+    }
 }

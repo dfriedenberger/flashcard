@@ -53,14 +53,31 @@
 
         </div>
         <div> 
-          <span class="box box-1"> 2031 </span>
-          <span class="box box-2"> 0</span>
-          <span class="box box-3"> 0</span>
+          <span id="box-0" class="box box-0"> 2031 </span>
+          <span id="box-1" class="box box-1"> 0</span>
+          <span id="box-2" class="box box-2"> 0</span>
         </div>
       </div>
     </div>
 
-    
+    <div id="ready" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>F&uuml;r heute bist du fertig.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery.min.js"></script>
@@ -77,8 +94,9 @@
         if(url == "") 
           url = location+"datasets/basic1.json";
         console.log(url);
+        
         var flipCard = new FlipCard('#flipcard');
-        var boxes = new Boxes(url);
+        var boxes = new Boxes(3,url);
 
         var flashCard = new FlashCard(flipCard,boxes);
 
