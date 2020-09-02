@@ -1,88 +1,58 @@
 
-$(document).ready(function() {
+function FlashCard(flipcard,boxes) {
 
+  this.flipcard = flipcard;
+  this.boxes = boxes;
 
-  
+  this.cardSet = undefined;
+  this.length = 0;
 
-  var url = $(location).attr('hash').substr(1);
-  if(url == "") 
-    url = location+"datasets/basic1.json";
+  var that = this;
+  this.flipcard.setCallback(function(correct) {
+    console.log("correct = "+correct);
 
-  console.log(url);
+    if(correct)
+    {
+      that.cardSet.remove();
+    }
 
-  var boxes = new Boxes(url);
+    that.next();
+  });
 
-  var cardSet = undefined;
-  var ix = undefined;
+  this.next = function() {
 
-  var setFront = function() {
-    $('#front-counter').text(ix+"/"+cardSet.length);
-    $('#front-vocabulary').text(cardSet[ix].question);
-  }
-
-  var setBack = function() {
-    $('#back-vocabulary').text(cardSet[ix].answer);
-  }
-
-  var next = function() {
-    var l = cardSet.length;
-    if(ix >= l)
+    if(!this.cardSet.hasCards())
     {
       //fertisch
       return;
     }
 
-    ix++;
+    var card = this.cardSet.nextCard();
 
-    $('#front-header').text("movie");
-    $('#back-header').text("movie");
-   
+    this.flipcard.setFrontCounter(this.length - this.cardSet.size(),this.length);
+    this.flipcard.setFrontVocabulary(card.question);
     
+    this.flipcard.toFront();
 
-  };
+    var fc = this.flipcard
+    setTimeout(function() {
+      fc.setBackVocabulary(card.answer);
+    },500);
 
- 
+  }
 
-  boxes.init(function() {
+  this.start = function()
+  {
+    this.cardSet = boxes.getCardSet(20);
+    this.length = this.cardSet.size();
 
-    //loaded
-    cardSet = boxes.getCardSet(20);
-    ix = -1;
-    next();
-    setFront();
-    setBack();
-  });
-
-  $("#card").flip({
-    trigger: 'manual'
-  });
-
-  $("#show").click(function(ev) {
-    ev.preventDefault();
-    $("#card").flip(true);
-  });
+    this.flipcard.setFrontHeader(this.boxes.getTitle());
+    this.flipcard.setBackHeader(this.boxes.getTitle());
+    this.next();
+  }
 
 
-  $("#correct").click(function(ev) {
-    ev.preventDefault();
 
-    next();
-    setFront();
-    $("#card").flip(false);
-    setTimeout(setBack,1000);
-  
+}
 
-  });
-
-  $("#wrong").click(function(ev) {
-    ev.preventDefault();
-
-    next();
-    setFront();
-    $("#card").flip(false);
-    setTimeout(setBack,1000);
-  });
-
-
-});
 
