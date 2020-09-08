@@ -1,5 +1,5 @@
 {
-  "title" : "Allgemein\tGeneralJa",
+  "title" : "Allgemein",
   "cards" : [ {
     "question" : "no",
     "answer" : "Nein"
@@ -19,16 +19,16 @@
     "question" : "vale",
     "answer" : "Alles klar"
   }, {
-    "question" : "(No) entiendo",
-    "answer" : "Ich verstehe (nicht)"
+    "question" : "No entiendo",
+    "answer" : "Ich verstehe nicht"
   }, {
-    "question" : "¿Sabe / Sabes hablar alemán?",
-    "answer" : "Sprechen Sie / Sprichst Du Deutsch?"
+    "question" : "¿Sabes hablar alemán?",
+    "answer" : "Sprichst Du Deutsch?"
   }, {
     "question" : "No hablo español.",
     "answer" : "Ich spreche kein Spanisch."
   }, {
-    "question" : "¡Socorro! / ¡Ayuda!",
+    "question" : "¡Ayuda!",
     "answer" : "Hilfe!"
   }, {
     "question" : "Un poco más despacio por favor.",

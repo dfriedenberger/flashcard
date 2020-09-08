@@ -20,6 +20,34 @@
 
   <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Flashcard</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarLists" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Flashcards
+            </a>
+            <div id="navbar-lists" class="dropdown-menu" aria-labelledby="navbarLists">
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarSettings" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Settings
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarSettings">
+              <a id="deleteStorage" class="dropdown-item" href="#">Delete local Storage</a>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
     <div class="row">
       <div class="col-sm-4 offset-md-4">
         <div id="flipcard"> 
@@ -60,6 +88,12 @@
       </div>
     </div>
 
+    <div style="margin-top: 25px;border-top: 1px solid grey">
+      <h2>Täglicher Fortschritt</h2>
+      <canvas id="myChart"></canvas>
+    </div>
+  </div>
+    
     <div id="ready" class="modal" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -70,10 +104,23 @@
             </button>
           </div>
           <div class="modal-body">
-            <p>F&uuml;r heute bist du fertig.</p>
+            <center>
+              <div id="circle">
+                <p id="points">5/20</p>
+              </div>
+              <p id="state">-</p>
+            </center>
+            <form>
+              <div class="form-group">
+                <label for="vocabulary-lists">Example select</label>
+                <select class="form-control" id="vocabulary-lists">
+                  
+                </select>
+              </div>
+            </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+            <button type="button" id="ok" class="btn btn-primary" data-dismiss="modal">Ok</button>
           </div>
         </div>
       </div>
@@ -83,28 +130,103 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.flip.min.js"></script>
+    <script src="js/circle-progress.min.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/database.class.js"></script>
     <script src="js/flipcard.class.js"></script>
     <script src="js/boxes.js"></script>
     <script src="js/flashcard.js"></script>
 
     <script type="text/javascript">
       $(document).ready(function() {
+       
 
+        var root = $(location).attr('protocol') + "//" + $(location).attr('hostname') + $(location).attr('pathname');
         var url = $(location).attr('hash').substr(1);
         if(url == "") 
           url = location+"datasets/basic1.json";
-        console.log(url);
+        console.log(root +" dataset" +url);
         
+        var database = new Database();
         var flipCard = new FlipCard('#flipcard');
-        var boxes = new Boxes(3,url);
+        var boxes = new Boxes(3,url,database);
 
-        var flashCard = new FlashCard(flipCard,boxes);
+        var flashCard = new FlashCard(flipCard,boxes,database,root);
+
+
+        $('#deleteStorage').click(function(ev) {
+          ev.preventDefault();
+          database.clear();
+        });
+
+
+        //fill menu
+        var vocabularyLists = database.getLists();
+        var l = vocabularyLists.length;
+        for(var i = 0;i < l;i++)
+        {
+          $('#navbar-lists').append('<a class="dropdown-item goto" href="'+vocabularyLists[i].url+'">'+vocabularyLists[i].title+'</a>');
+        }
+       
+        $(".goto").click(function(ev) {
+          ev.preventDefault();
+          var nurl = $(this).attr('href');
+          window.location.replace(root + "#" + nurl);
+          window.location.reload();
+        });
 
         //if loaded
         boxes.init(function() {
           flashCard.start();
         });
         
+
+        Date.prototype.addDays = function(days) {
+          var date = new Date(this.valueOf());
+          date.setDate(date.getDate() + days);
+          return date;
+        }
+
+
+        var today = new Date();
+        var labels = [];
+        var data = [];
+        for(var i = -7;i <= 0;i++)
+        {
+          var date = today.addDays(i).toISOString().split('T')[0];
+          var points = database.getPoints(date);
+          labels.push(date);
+          data.push(points);
+        }
+
+
+
+
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'line',
+            
+            // The data for our dataset
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Punkte',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: data
+                }]
+            },
+
+            // Configuration options go here
+            options: {
+                legend: {
+                  display: false
+                }
+            }
+});
+
+
       });
     </script>
 

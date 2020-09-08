@@ -1,11 +1,11 @@
 {
-  "title" : "Vorstellungen",
+  "title" : "Vorstellung",
   "cards" : [ {
     "question" : "el nombre",
     "answer" : "Name"
   }, {
-    "question" : "¿Cómo se llama (usted) / Cómo te llamas?",
-    "answer" : "Wie heißen Sie / Wie heißt Du?"
+    "question" : "¿Cómo te llamas?",
+    "answer" : "Wie heißt Du?"
   }, {
     "question" : "Me llamo…",
     "answer" : "Ich heiße…"
@@ -13,8 +13,8 @@
     "question" : "Yo soy",
     "answer" : "Ich bin…"
   }, {
-    "question" : "Es un placer conocerle / conocerte.",
-    "answer" : "Es ist nett Sie / Dich kennenzulernen."
+    "question" : "Es un placer conocerte.",
+    "answer" : "Es ist nett Dich kennenzulernen."
   }, {
     "question" : "Tengo X años.",
     "answer" : "Ich bin X Jahre alt."
@@ -22,26 +22,26 @@
     "question" : "Soy de…",
     "answer" : "Ich komme aus…"
   }, {
-    "question" : "¿Cuántos años tiene (usted) / tienes ?",
-    "answer" : "Wie alt sind Sie / bist Du?"
+    "question" : "¿Cuántos años tienes ?",
+    "answer" : "Wie alt bist Du?"
   }, {
-    "question" : "¿Dónde trabaja (usted) / trabajas?",
-    "answer" : "Wo arbeiten Sie / arbeitest Du?"
+    "question" : "¿Dónde trabajas?",
+    "answer" : "Wo arbeitest Du?"
   }, {
-    "question" : "¿De dónde es (usted) / eres?",
-    "answer" : "Wo kommen Sie / kommst Du her?"
+    "question" : "¿De dónde  eres?",
+    "answer" : "Wo kommst Du her?"
   }, {
-    "question" : "¿Qué le / te trae por aquí?",
-    "answer" : "Was bringt Sie / Dich hierher?"
+    "question" : "¿Qué te trae por aquí?",
+    "answer" : "Was bringt Dich hierher?"
   }, {
-    "question" : "¿Cómo ha ido su / tu viaje?",
-    "answer" : "Wie war Ihre / Deine Reise?"
+    "question" : "¿Cómo ha ido tu viaje?",
+    "answer" : "Wie war Deine Reise?"
   }, {
-    "question" : "¿Lo está / estás pasando bien?",
-    "answer" : "Haben Sie / Hast Du eine gute Zeit?"
+    "question" : "¿Lo estás pasando bien?",
+    "answer" : "Hast Du eine gute Zeit?"
   }, {
-    "question" : "¿Qué piensa / piensas sobre…?",
-    "answer" : "Was halten Sie / hältst Du von …?"
+    "question" : "¿Qué piensas sobre…?",
+    "answer" : "Was hältst Du von …?"
   }, {
     "question" : "Mis amigos me llaman…",
     "answer" : "Meine Freunde nennen mich …"
@@ -52,7 +52,7 @@
     "question" : "Este / Esta es (nombre)",
     "answer" : "Dies ist (Name)"
   }, {
-    "question" : "¿Cómo ha sido su / tu fin de semana?",
-    "answer" : "Wie war Ihr  / Dein Wochenende?"
+    "question" : "¿Cómo ha sido tu fin de semana?",
+    "answer" : "Wie war Dein Wochenende?"
   } ]
 }

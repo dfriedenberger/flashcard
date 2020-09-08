@@ -1,5 +1,4 @@
 
-
 .buttons {width: 100%; }
 .bw2 { width: 50%; }
 .bw1 { width: 100%; }
@@ -40,15 +39,34 @@
 
 .box-0 {
     border-color: red;
-    color: red;
+    color:  red;
 }
 
 .box-1 {
-    border-color: yellow;
-    color: yellow;
+    border-color: lightgreen;
+    color: lightgreen;
 }
 
 .box-2 {
     border-color: green;
     color: green;
+}
+
+#circle {
+    margin: auto;
+    width: 100px;
+}
+
+#points {
+    position: absolute;
+    top: 45px;
+    font-size: 20pt;
+    text-align: center;
+    width: 100px;
+}
+
+#myChart {
+    margin: auto;
+    max-width: 400px;
+    max-height: 400px;
 }

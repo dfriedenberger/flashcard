@@ -84,33 +84,87 @@ function Box() {
    }
 }
 
-function Boxes (boxCount,url) {
-    this.boxCount = boxCount;
-    this.box = [];
-    this.boxIx = {};
-    for(var i = 0;i < boxCount;i++)
-        this.box.push(new Box());
+function Boxes (boxCount,url,database) {
 
     this.url = url;
+  
+    //data
+    this.title =  undefined;
+    this.boxCount = boxCount;
     this.cards = {};
-    this.title = undefined;
+    this.box = [];
+    this.boxIx = {};
+   
 
+    this.database = database;
+    
     this.init = function(callback) {
+
         var that = this;
-        $.get( this.url, function( data ) {
-            console.log(data);
+
+
+        for(var i = 0;i < that.boxCount;i++)
+            that.box.push(new Box());
+
+
+        var dbdata = that.database.findCards(url);
+        if(dbdata != undefined)
+        {
+            console.log(dbdata);
+            //load
+            this.title = dbdata.title;
+            this.cards = dbdata.cards;
+            this.boxIx = dbdata.boxIx;
+            
+            for(var i = 0;i < that.boxCount;i++)
+                this.box[i].cards = dbdata.box[i].cards;
+
+            callback();
+            return;
+        }
+
+        $.get( this.url, function( load ) {
+
+            console.log(load);
+
+           
             //map
-            data.cards.forEach( function (card,ix) {
+            load.cards.forEach( function (card,ix) {
+
                 var cardId = 'card'+ix;
                 that.cards[cardId] = card;
                 that.box[0].add(cardId);
                 that.boxIx[cardId] = 0;
-            });
-            that.title = data.title;
 
+            });
+
+            that.title = load.title;
+
+            that._commit();
             callback();
         });
     };
+
+    this._commit = function()
+    {
+        var data = {
+            title : this.title,
+            cards : this.cards,
+            box : this.box,
+            boxIx : this.boxIx
+        };
+        this.database.saveCards(this.url,data);
+
+        var statistic = this.box[0].size();
+        for(var i = 1;i < this.boxCount;i++)
+            statistic+= '/'+this.box[i].size();
+
+        this.database.setList({
+            title: this.title,
+            url: this.url,
+            statistic: statistic
+        });
+    }
 
     this.getBoxCount = function() {
         return this.boxCount;
@@ -130,6 +184,7 @@ function Boxes (boxCount,url) {
         this.box[t].add(cardId);
         this.boxIx[cardId] = t;
 
+        this._commit();
     }
 
     this.moveBoxUp = function(cardId) {
@@ -141,6 +196,7 @@ function Boxes (boxCount,url) {
         this.box[f].remove(cardId);
         this.box[t].add(cardId);
         this.boxIx[cardId] = t;
+        this._commit();
 
     }
 
