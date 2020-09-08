@@ -1,6 +1,8 @@
 # flashcard
 Flashcard app using [Leitner System](https://en.wikipedia.org/wiki/Leitner_system) for external data sets
 
+![Vocabulary Flash Card](https://github.com/dfriedenberger/flashcard/raw/master/flashcard.gif "Vocabulary Flash Card")
+
 ## Using
 Only have to add URL to data set.
 ```
